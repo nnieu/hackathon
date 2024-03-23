@@ -34,8 +34,9 @@ import database_connection
 
 
 
-# @app.route("/get-user/<user_id>")
-# def get_user(user_id):
+@app.route("/get-user/<user_id>")
+def get_user(user_id):
+    return "Hello World", 200
 #     user_data = {
 #         user_id : user_id,
 #         "name": "John Doe",
