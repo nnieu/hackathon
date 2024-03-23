@@ -37,7 +37,7 @@ def add_data():
 
     document = {
         'name': 'Annie Vu',
-        'gender' : 'male'
+        'gender' : 'female'
     }
 
     filter_criteria = {'name': 'Annie Vu'}

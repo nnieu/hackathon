@@ -3,7 +3,6 @@ import database_connection
 # import sqlite3
 
 
-
 # def create_database():
 # connect = sqlite3.connect('example.db')
 # c = connect.cursor()
@@ -31,7 +30,6 @@ import database_connection
 # connect.commit()
 # print(c.fetchall())
 # connect.close()
-
 
 
 # @app.route("/get-user/<user_id>")
@@ -79,5 +77,5 @@ import database_connection
 
 if __name__ == "__main__":
     #app.run(debug=True)
-    # database_connection.test()
-    # database_connection.add_data()
+    database_connection.test()
+    database_connection.add_data()
