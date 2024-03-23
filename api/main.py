@@ -34,9 +34,13 @@ import database_connection
 
 
 
-@app.route("/get-user/<user_id>")
-def get_user(user_id):
-    return "Hello World", 200
+# @app.route("/get-user/<user_id>")
+# def get_user(user_id):
+#     return "Hello World", 200
+
+
+# def receive_data():
+
 #     user_data = {
 #         user_id : user_id,
 #         "name": "John Doe",
@@ -70,7 +74,7 @@ def get_user(user_id):
 
 
 
-# def home():
+# def home()
 #     return "Home" 
 
 if __name__ == "__main__":
