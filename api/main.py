@@ -79,5 +79,5 @@ import database_connection
 
 if __name__ == "__main__":
     #app.run(debug=True)
-    database_connection.test()
-    database_connection.add_data()
+    # database_connection.test()
+    # database_connection.add_data()
